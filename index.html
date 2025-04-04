@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochoge Kemunto Hazzel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">MK<span class="dot">.</span></div>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#education" class="nav-link">Education</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <a href="/lovable-uploads/e527a376-2174-442d-beab-67c33df84642.png" download="Mochoge_Kemunto_Resume.png" class="download-btn">Download CV</a>
+                </div>
+                <button class="menu-btn" id="menuBtn">
+                    <i data-feather="menu"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="background-elements">
+            <!-- Background elements will be added via CSS -->
+        </div>
+        <div class="container">
+            <h1>Mochoge Kemunto Hazzel</h1>
+            <div class="title-line"></div>
+            <p class="profession">Data Analyst & Statistician</p>
+            <p class="subtitle">Transforming complex datasets into actionable insights and strategic initiatives</p>
+            
+            <button class="scroll-btn" id="scrollBtn">
+                <i data-feather="arrow-down"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="title-line"></div>
+            
+            <div class="about-content">
+                <h3>Career Summary</h3>
+                <p>
+                    Experienced statistician with a demonstrated history of working in the manufacturing and research sectors. 
+                    Strong expertise in data analytics, with a proven ability to leverage statistical packages to drive data-informed 
+                    decision-making. A collaborative team player skilled in working with diverse groups to achieve organizational 
+                    objectives. My most recent experience involved conducting data analysis related to production, where I 
+                    effectively translated complex datasets into actionable insights. I am committed to enhancing operational 
+                    efficiency and supporting strategic initiatives through rigorous analysis.
+                </p>
+                
+                <h3>Interests</h3>
+                <ul class="interests-list">
+                    <li>Data Analytics: Exploring advanced statistical methods and visualization techniques</li>
+                    <li>Machine Learning: Applying algorithms to solve real-world business problems</li>
+                    <li>Process Optimization: Improving operational efficiency through data-driven decisions</li>
+                    <li>Technology Innovations: Keeping up with emerging trends in data science and analytics</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <!-- Content will be loaded via JavaScript -->
+    </section>
+
+    <section id="skills" class="section">
+        <!-- Content will be loaded via JavaScript -->
+    </section>
+
+    <section id="projects" class="section">
+        <!-- Content will be loaded via JavaScript -->
+    </section>
+
+    <section id="contact" class="section">
+        <!-- Content will be loaded via JavaScript -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Mochoge Kemunto Hazzel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script>
+        feather.replace();
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
